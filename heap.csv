@@ -1,0 +1,8 @@
+flat,flat%,sum%,cum,cum%,function
+3.47MB,75.00%,75.00%,3.47MB,75.00%,main.memoryIntensiveTask
+1.16MB,25.00%,100%,1.16MB,25.00%,runtime/pprof.StartCPUProfile
+0,0%,100%,1.16MB,25.00%,net/http.(*ServeMux).ServeHTTP
+0,0%,100%,1.16MB,25.00%,net/http.(*conn).serve
+0,0%,100%,1.16MB,25.00%,net/http.HandlerFunc.ServeHTTP
+0,0%,100%,1.16MB,25.00%,net/http.serverHandler.ServeHTTP
+0,0%,100%,1.16MB,25.00%,net/http/pprof.Profile

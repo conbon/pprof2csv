@@ -1,0 +1,41 @@
+flat,flat%,sum%,cum,cum%,function
+270ms,52.94%,52.94%,280ms,54.90%,main.cpuIntensiveTask
+130ms,25.49%,78.43%,130ms,25.49%,runtime.kevent
+50ms,9.80%,88.24%,50ms,9.80%,runtime.pthread_cond_wait
+20ms,3.92%,92.16%,20ms,3.92%,runtime.pthread_cond_signal
+10ms,1.96%,94.12%,10ms,1.96%,runtime.(*mheap).grow
+10ms,1.96%,96.08%,10ms,1.96%,runtime.asyncPreempt
+10ms,1.96%,98.04%,10ms,1.96%,runtime.madvise
+10ms,1.96%,100%,10ms,1.96%,runtime.pthread_kill
+0,0%,100%,10ms,1.96%,main.memoryIntensiveTask
+0,0%,100%,10ms,1.96%,runtime.(*gcControllerState).enlistWorker
+0,0%,100%,10ms,1.96%,runtime.(*gcWork).balance
+0,0%,100%,10ms,1.96%,runtime.(*mcache).allocLarge
+0,0%,100%,10ms,1.96%,runtime.(*mheap).alloc
+0,0%,100%,20ms,3.92%,runtime.(*mheap).alloc.func1
+0,0%,100%,20ms,3.92%,runtime.(*mheap).allocSpan
+0,0%,100%,180ms,35.29%,runtime.findRunnable
+0,0%,100%,10ms,1.96%,runtime.gcBgMarkWorker.func2
+0,0%,100%,10ms,1.96%,runtime.gcDrain
+0,0%,100%,10ms,1.96%,runtime.gcDrainMarkWorkerIdle (inline)
+0,0%,100%,50ms,9.80%,runtime.mPark (inline)
+0,0%,100%,10ms,1.96%,runtime.makeslice
+0,0%,100%,10ms,1.96%,runtime.mallocgc
+0,0%,100%,200ms,39.22%,runtime.mcall
+0,0%,100%,130ms,25.49%,runtime.netpoll
+0,0%,100%,50ms,9.80%,runtime.notesleep
+0,0%,100%,20ms,3.92%,runtime.notewakeup
+0,0%,100%,200ms,39.22%,runtime.park_m
+0,0%,100%,10ms,1.96%,runtime.preemptM
+0,0%,100%,10ms,1.96%,runtime.preemptone
+0,0%,100%,20ms,3.92%,runtime.resetspinning
+0,0%,100%,200ms,39.22%,runtime.schedule
+0,0%,100%,50ms,9.80%,runtime.semasleep
+0,0%,100%,20ms,3.92%,runtime.semawakeup
+0,0%,100%,10ms,1.96%,runtime.signalM (inline)
+0,0%,100%,20ms,3.92%,runtime.startm
+0,0%,100%,50ms,9.80%,runtime.stopm
+0,0%,100%,10ms,1.96%,runtime.sysUsed (inline)
+0,0%,100%,10ms,1.96%,runtime.sysUsedOS (inline)
+0,0%,100%,30ms,5.88%,runtime.systemstack
+0,0%,100%,20ms,3.92%,runtime.wakep
